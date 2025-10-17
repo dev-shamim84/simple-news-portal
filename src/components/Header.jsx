@@ -7,7 +7,7 @@ const Header = () => {
       <div className="mt-3">
         <p className="text-accent">Journalism Without Fear or Favour</p>
         <p className="font-semibold text-accent mt-2">
-          {format(new Date(), "EEEE , MMMM MM , yyyy")}
+          {format(new Date(), "EEEE , MMMM dd , yyyy")}
         </p>
       </div>
     </div>

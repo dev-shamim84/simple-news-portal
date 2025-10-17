@@ -3,7 +3,6 @@ import { FaRegEye, FaStar } from "react-icons/fa";
 
 const NewsCard = ({ news }) => {
   const { title, author, thumbnail_url, details, rating, total_view } = news;
-
   const formattedDate = new Date(author.published_date).toLocaleDateString();
 
   return (
